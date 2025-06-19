@@ -2,18 +2,23 @@
 import { useEffect } from "react";
 import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
+import {House, Stethoscope} from 'lucide-react';
 
 export default function HomePage() {
   return (
     <main className="scroll-smooth">
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 flex justify-center space-x-6 py-4">
-        <a href="#hero" className="hover:text-blue-600">Home</a>
-        <a href="#about" className="hover:text-blue-600">About</a>
-        <a href="#services" className="hover:text-blue-600">Services</a>
-        <a href="#testimonials" className="hover:text-blue-600">Testimonials</a>
-        <a href="#equipment" className="hover:text-blue-600">Equipment</a>
-        <a href="#contact" className="hover:text-blue-600">Contact</a>
+        <a href="#hero" className="flex items-center gap-2 hover:text-blue-600">
+            <House className="w-4 h4"/>
+            Home</a>
+        <a href="#about" className="flex items-center gap-2 hover:text-blue-600">
+            <Stethoscope className="w-4 h4"/>
+            About</a>
+        <a href="#services" className="flex items-center gap-2 hover:text-blue-600">Services</a>
+        <a href="#testimonials" className="flex items-center gap-2 hover:text-blue-600">Testimonials</a>
+        <a href="#equipment" className="flex items-center gap-2 hover:text-blue-600">Equipment</a>
+        <a href="#contact" className="flex items-center gap-2 hover:text-blue-600">Contact</a>
       </nav>
 
       {/* HERO */}
