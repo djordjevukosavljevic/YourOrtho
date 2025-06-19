@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
-import {House, Stethoscope} from 'lucide-react';
+import {House, Stethoscope, Hospital, Star, Magnet, Contact} from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -15,10 +15,18 @@ export default function HomePage() {
         <a href="#about" className="flex items-center gap-2 hover:text-blue-600">
             <Stethoscope className="w-4 h4"/>
             About</a>
-        <a href="#services" className="flex items-center gap-2 hover:text-blue-600">Services</a>
-        <a href="#testimonials" className="flex items-center gap-2 hover:text-blue-600">Testimonials</a>
-        <a href="#equipment" className="flex items-center gap-2 hover:text-blue-600">Equipment</a>
-        <a href="#contact" className="flex items-center gap-2 hover:text-blue-600">Contact</a>
+        <a href="#services" className="flex items-center gap-2 hover:text-blue-600">
+            <Hospital className="w-4 h4"/>
+            Services</a>
+        <a href="#testimonials" className="flex items-center gap-2 hover:text-blue-600">
+            <Star className="w-4 h4"/>
+            Testimonials</a>
+        <a href="#equipment" className="flex items-center gap-2 hover:text-blue-600">
+            <Magnet className="w-4 h4"/>
+            Equipment</a>
+        <a href="#contact" className="flex items-center gap-2 hover:text-blue-600">
+            <Contact className="w-4 h4"/>
+            Contact</a>
       </nav>
 
       {/* HERO */}
