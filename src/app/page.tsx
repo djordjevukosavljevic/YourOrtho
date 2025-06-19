@@ -86,7 +86,7 @@ export default function HomePage() {
         <form className="w-full max-w-md space-y-4">
           <input
             type="text"
-            placeholder="Your Name"
+            placeholder="Your Name and Lastname"
             className="w-full p-3 border rounded"
           />
           <input
@@ -96,7 +96,7 @@ export default function HomePage() {
           />
          <input
             type="text" 
-            placeholder="Your subject"
+            placeholder="Subject"
             className="w-full p-3 border rounded"
          />
 
