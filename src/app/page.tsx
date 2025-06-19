@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold mb-4">About</h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr. [Name] is a board-certified radiologist with over 15 years of experience providing diagnostic imaging services. Dedicated to accurate diagnosis and compassionate care.
+            Dr. Vukosavljevic is a board-certified radiologist with over 40 years of experience providing diagnostic imaging services. Dedicated to accurate diagnosis and compassionate care.
           </p>
         </div>
       </section>
@@ -81,6 +81,12 @@ export default function HomePage() {
             placeholder="Your Email"
             className="w-full p-3 border rounded"
           />
+         <input
+            type="text" 
+            placeholder="Your subject"
+            className="w-full p-3 border rounded"
+         />
+
           <textarea
             placeholder="Your Message"
             className="w-full p-3 border rounded"
