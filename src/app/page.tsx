@@ -112,7 +112,7 @@ export default function HomePage() {
             Send Message
           </button>
         </form>
-        <p className="mt-6 text-gray-600">📍 Address | ☎️ Phone Number | ✉️ Email</p>
+        <p className="mt-6 text-gray-600">📍 Grocka | ☎️ Phone Number | ✉️ <a href="mailto:djordje.vukosavljevic01@gmail.com">vvukosavljevic@gmail.com</a></p>
       </section>
 
       {/* FOOTER */}
