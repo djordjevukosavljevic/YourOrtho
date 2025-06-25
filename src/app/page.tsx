@@ -94,6 +94,11 @@ export default function HomePage() {
             placeholder="Your Email"
             className="w-full p-3 border rounded"
           />
+           <input
+            type="number"
+            placeholder="Your Mobile Number"
+            className="w-full p-3 border rounded"
+          />
          <input
             type="text" 
             placeholder="Subject"
