@@ -12,7 +12,7 @@ export default function HomePage() {
         <a href="#hero" className="flex items-center gap-2 hover:text-blue-600">
             <House className="w-4 h4"/>
             Home</a>
-        <a href="#about" className="flex items-center gap-2 hover:text-blue-600">
+        <a href="#about" className="flex items-center gap-2 hover:text-blue-600 text-center">
             <Stethoscope className="w-4 h4"/>
             About</a>
         <a href="#services" className="flex items-center gap-2 hover:text-blue-600">
@@ -112,7 +112,7 @@ export default function HomePage() {
             Send Message
           </button>
         </form>
-        <p className="mt-6 text-gray-600">📍 Grocka | ☎️ Phone Number | ✉️ <a href="mailto:djordje.vukosavljevic01@gmail.com">vvukosavljevic@gmail.com</a></p>
+        <p className="mt-6 text-gray-600 text-center">📍 Grocka | ☎️ Phone Number | ✉️ <a href="mailto:djordje.vukosavljevic01@gmail.com">vvukosavljevic@gmail.com</a></p>
       </section>
 
       {/* FOOTER */}
