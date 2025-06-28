@@ -16,8 +16,17 @@ datasource db {
 }
 
 model Image {
-  id  Int @id @default(autoincrement)
+  id  Int @id @default(autoincrement())
   fileName String
   path String
   created_at DateTime @default(now())
+}
+
+model Message {
+  id Int @id @default(autoincrement())
+  fullName String
+  email String
+  mobilePhone String
+  subject String
+  message String
 }
