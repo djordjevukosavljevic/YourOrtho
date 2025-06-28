@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.10.1",
     "autoprefixer": "^10.4.21",
     "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.518.0",
