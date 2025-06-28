@@ -1,32 +1,42 @@
 "use client";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
-import {House, Stethoscope, Hospital, Star, Magnet, Contact} from 'lucide-react';
+import { House, Stethoscope, Hospital, Star, Magnet, Contact } from 'lucide-react';
+
+// Practice
+const App: React.FC = () => {
+  return (
+    <div className="Func">
+      <span className="heading">WHATSUPP</span>
+    </div>
+  );
+};
 
 export default function HomePage() {
   return (
-    <main className="scroll-smooth">
+    <main className="scroll-smoo th">
       {/* NAVBAR */}
+      {/* With views */}
       <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 flex justify-center space-x-6 py-4">
         <a href="#hero" className="flex items-center gap-2 hover:text-blue-600">
-            <House className="w-4 h4"/>
-            Home</a>
+          <House className="w-4 h4" />
+          Home</a>
         <a href="#about" className="flex items-center gap-2 hover:text-blue-600 text-center">
-            <Stethoscope className="w-4 h4"/>
-            About</a>
+          <Stethoscope className="w-4 h4" />
+          About</a>
         <a href="#services" className="flex items-center gap-2 hover:text-blue-600">
-            <Hospital className="w-4 h4"/>
-            Services</a>
+          <Hospital className="w-4 h4" />
+          Services</a>
         <a href="#testimonials" className="flex items-center gap-2 hover:text-blue-600">
-            <Star className="w-4 h4"/>
-            Testimonials</a>
+          <Star className="w-4 h4" />
+          Testimonials</a>
         <a href="#equipment" className="flex items-center gap-2 hover:text-blue-600">
-            <Magnet className="w-4 h4"/>
-            Equipment</a>
+          <Magnet className="w-4 h4" />
+          Equipment</a>
         <a href="#contact" className="flex items-center gap-2 hover:text-blue-600">
-            <Contact className="w-4 h4"/>
-            Contact</a>
+          <Contact className="w-4 h4" />
+          Contact</a>
       </nav>
 
       {/* HERO */}
@@ -59,7 +69,7 @@ export default function HomePage() {
         </ul>
       </section>
 
-      {/* TESTIMONIALS */}
+      {/* TESTIMONIALS - Reviews*/}
       <section id="testimonials" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
           <h2 className="text-3xl font-bold mb-8">Testimonials</h2>
@@ -94,16 +104,16 @@ export default function HomePage() {
             placeholder="Your Email"
             className="w-full p-3 border rounded"
           />
-           <input
+          <input
             type="number"
             placeholder="Your Mobile Number"
             className="w-full p-3 border rounded"
           />
-         <input
-            type="text" 
+          <input
+            type="text"
             placeholder="Subject"
             className="w-full p-3 border rounded"
-         />
+          />
 
           <textarea
             placeholder="Your Message"
