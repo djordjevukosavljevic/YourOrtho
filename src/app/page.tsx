@@ -3,15 +3,8 @@ import React, { useEffect } from "react";
 import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { House, Stethoscope, Hospital, Star, Magnet, Contact } from 'lucide-react';
+import Message from "@/components/About";
 
-// Practice
-const App: React.FC = () => {
-  return (
-    <div className="Func">
-      <span className="heading">WHATSUPP</span>
-    </div>
-  );
-};
 
 export default function HomePage() {
   return (
@@ -50,12 +43,7 @@ export default function HomePage() {
 
       {/* ABOUT */}
       <section id="about" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
-        <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold mb-4">About</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Dr. Vukosavljevic is a board-certified radiologist with over 40 years of experience providing diagnostic imaging services. Dedicated to accurate diagnosis and compassionate care.
-          </p>
-        </div>
+        <div><Message></Message></div>
       </section>
 
       {/* SERVICES */}

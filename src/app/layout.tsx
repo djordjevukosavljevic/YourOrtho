@@ -1,10 +1,10 @@
 import '../styles/globals.css'
-import React  from "react";
+import React from "react";
 
 export const metadata = {
   title: 'Dr Vladimir',
   description: 'Diagnostic imaging services with modern equipment',
-  icons:{
+  icons: {
     icon: '/favicon.ico'
   }
 }
