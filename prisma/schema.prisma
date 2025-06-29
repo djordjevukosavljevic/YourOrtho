@@ -34,4 +34,6 @@ model Message {
 model Testimony {
   id Int @id @default(autoincrement())
   fullName String
+  title String
+  comment String
 }
