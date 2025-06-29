@@ -79,6 +79,7 @@ export default function HomePage() {
       </section>
 
       {/* CONTACT */}
+
       <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
         <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
         <form className="w-full max-w-md space-y-4">
@@ -120,7 +121,7 @@ export default function HomePage() {
 
       {/* FOOTER */}
       <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
-        &copy; {new Date().getFullYear()} Radiologist Clinic. All rights reserved.
+        &copy; {new Date().getFullYear()} Radiologist Clinic - Dr Vladimir - All rights reserved.
       </footer>
     </main>
   );
