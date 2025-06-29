@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { House, Stethoscope, Hospital, Star, Magnet, Contact } from 'lucide-react';
-import Message from "@/components/About";
+import About from "@/components/About";
 
 
 export default function HomePage() {
@@ -43,7 +43,7 @@ export default function HomePage() {
 
       {/* ABOUT */}
       <section id="about" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
-        <div><Message></Message></div>
+        <div><About></About></div>
       </section>
 
       {/* SERVICES */}
