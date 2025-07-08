@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
-import { House, Stethoscope, Hospital, Star, Magnet, Contact } from 'lucide-react';
+import { House, Stethoscope, Hospital, GraduationCap, Magnet, Contact } from 'lucide-react';
 import About from "@/components/About";
 import Contacts from "@/components/Contact";
 
@@ -23,8 +23,8 @@ export default function HomePage() {
           <Hospital className="w-4 h4" />
           Services</a>
         <a href="#testimonials" className="flex items-center gap-2 hover:text-blue-600">
-          <Star className="w-4 h4" />
-          Testimonials</a>
+          <GraduationCap className="w-4 h4" />
+          Experience</a>
         <a href="#equipment" className="flex items-center gap-2 hover:text-blue-600">
           <Magnet className="w-4 h4" />
           Equipment</a>
@@ -61,9 +61,9 @@ export default function HomePage() {
       {/* TESTIMONIALS - Reviews*/}
       <section id="testimonials" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
-          <h2 className="text-3xl font-bold mb-8">Testimonials</h2>
+          <h2 className="text-3xl font-bold mb-8">Experience</h2>
           <p className="italic text-gray-600 mb-4">
-            "Professional service, quick results. I highly recommend!"
+            "With years of teaching on university
           </p>
           <p className="italic text-gray-600">
             "State-of-the-art equipment and friendly staff."
