@@ -4,6 +4,7 @@ import '../styles/page.module.css';
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { House, Stethoscope, Hospital, Star, Magnet, Contact } from 'lucide-react';
 import About from "@/components/About";
+import Contacts from "@/components/Contact";
 
 
 export default function HomePage() {
@@ -81,43 +82,8 @@ export default function HomePage() {
       {/* CONTACT */}
 
       <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
-        <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
-        <form className="w-full max-w-md space-y-4">
-          <input
-            type="text"
-            placeholder="Your Name and Lastname"
-            className="w-full p-3 border rounded"
-          />
-          <input
-            type="email"
-            placeholder="Your Email"
-            className="w-full p-3 border rounded"
-          />
-          <input
-            type="number"
-            placeholder="Your Mobile Number"
-            className="w-full p-3 border rounded"
-          />
-          <input
-            type="text"
-            placeholder="Subject"
-            className="w-full p-3 border rounded"
-          />
-
-          <textarea
-            placeholder="Your Message"
-            className="w-full p-3 border rounded"
-            rows={4}
-          />
-          <button
-            type="submit"
-            className="w-full p-3 bg-blue-600 text-white rounded hover:bg-blue-700"
-          >
-            Send Message
-          </button>
-        </form>
-        <p className="mt-6 text-gray-600 text-center">📍 Grocka | ☎️ Phone Number | ✉️ <a href="mailto:djordje.vukosavljevic01@gmail.com">vvukosavljevic@gmail.com</a></p>
-      </section>
+        <div><Contacts></Contacts></div>
+       </section>
 
       {/* FOOTER */}
       <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
