@@ -6,6 +6,7 @@ import { House, Stethoscope, Hospital, GraduationCap, Magnet, Contact } from 'lu
 import About from "@/components/About";
 import Contacts from "@/components/Contact";
 import Services from "@/components/Services"
+import Experience from "@/components/Experience";
 
 
 export default function HomePage() {
@@ -58,13 +59,7 @@ export default function HomePage() {
       {/* EXPERIENCE */}
       <section id="experience" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
-          <h2 className="text-3xl font-bold mb-8">Experience</h2>
-          <p className="italic text-gray-600 mb-4">
-            "With years of teaching on university
-          </p>
-          <p className="italic text-gray-600">
-            "State-of-the-art equipment and friendly staff."
-          </p>
+            <Experience></Experience>
         </div>
       </section>
 
