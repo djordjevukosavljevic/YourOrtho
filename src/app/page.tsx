@@ -5,6 +5,7 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 import { House, Stethoscope, Hospital, GraduationCap, Magnet, Contact } from 'lucide-react';
 import About from "@/components/About";
 import Contacts from "@/components/Contact";
+import Services from "@/components/Services"
 
 
 export default function HomePage() {
@@ -49,13 +50,9 @@ export default function HomePage() {
 
       {/* SERVICES */}
       <section id="services" className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-        <ul className="space-y-4 text-lg text-gray-700 max-w-xl mx-auto">
-          <li>✅ Magnetic Resonance Imaging (MRI)</li>
-          <li>✅ Computed Tomography (CT Scan)</li>
-          <li>✅ Ultrasound (Sonography)</li>
-          <li>✅ X-Ray Imaging</li>
-        </ul>
+        <div className="space-y-4 text-lg text-black-700 max-w-xl mx-auto">
+          <Services></Services>
+        </div>
       </section>
 
       {/* TESTIMONIALS - Reviews*/}
@@ -63,7 +60,7 @@ export default function HomePage() {
         <div className="max-w-2xl text-center">
           <h2 className="text-3xl font-bold mb-8">Experience</h2>
           <p className="italic text-gray-600 mb-4">
-            "With years of teaching on university 
+            "With years of teaching on university
           </p>
           <p className="italic text-gray-600">
             "State-of-the-art equipment and friendly staff."
@@ -83,7 +80,7 @@ export default function HomePage() {
 
       <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
         <div><Contacts></Contacts></div>
-       </section>
+      </section>
 
       {/* FOOTER */}
       <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
