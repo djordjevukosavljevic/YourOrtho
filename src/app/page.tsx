@@ -46,7 +46,7 @@ export default function HomePage() {
 
       {/* ABOUT */}
       <section id="about" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
-        <div><About></About></div>
+        <div className="max-w-2xl text-center"><About></About></div>
       </section>
 
       {/* SERVICES */}
