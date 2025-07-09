@@ -23,7 +23,7 @@ export default function HomePage() {
         <a href="#services" className="flex items-center gap-2 hover:text-blue-600">
           <Hospital className="w-4 h4" />
           Services</a>
-        <a href="#testimonials" className="flex items-center gap-2 hover:text-blue-600">
+        <a href="#experience" className="flex items-center gap-2 hover:text-blue-600">
           <GraduationCap className="w-4 h4" />
           Experience</a>
         <a href="#equipment" className="flex items-center gap-2 hover:text-blue-600">
@@ -55,8 +55,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* TESTIMONIALS - Reviews*/}
-      <section id="testimonials" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+      {/* EXPERIENCE */}
+      <section id="experience" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
           <h2 className="text-3xl font-bold mb-8">Experience</h2>
           <p className="italic text-gray-600 mb-4">
