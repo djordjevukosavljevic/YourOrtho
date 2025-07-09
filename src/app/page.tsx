@@ -63,7 +63,7 @@ export default function HomePage() {
         <div className="max-w-2xl text-center">
           <h2 className="text-3xl font-bold mb-8">Experience</h2>
           <p className="italic text-gray-600 mb-4">
-            "With years of teaching on university
+            "With years of teaching on university 
           </p>
           <p className="italic text-gray-600">
             "State-of-the-art equipment and friendly staff."
@@ -87,7 +87,7 @@ export default function HomePage() {
 
       {/* FOOTER */}
       <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
-        &copy; {new Date().getFullYear()} Radiologist Clinic - Dr Vladimir - All rights reserved.
+        &copy; {new Date().getFullYear()} Radiologist - Dr Vladimir - All rights reserved.
       </footer>
     </main>
   );

@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Contacts() {
     return (
         <div>
             <h2 className="text-3xl font-bold mb-6">Contact Us</h2 >
@@ -36,7 +36,7 @@ export default function Contact() {
                     Send Message
                 </button>
             </form>
-            <p className="mt-6 text-gray-600 text-center">📍 Grocka | ☎️ Phone Number | ✉️ <a href="mailto:djordje.vukosavljevic01@gmail.com">vvukosavljevic@gmail.com</a></p>
+            <p className="mt-6 text-gray-600 text-center">📍 Belgrade | ☎️ +38162231689 | ✉️ <a href="mailto:djordje.vukosavljevic01@gmail.com">vvukosavljevic@gmail.com</a></p>
         </div>
     );
 }
