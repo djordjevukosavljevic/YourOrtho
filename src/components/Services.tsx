@@ -9,5 +9,5 @@ export default function Services() {
                 <li>✅ X-Ray Imaging</li>
             </ul>
         </div>
-    )
+    );
 }
