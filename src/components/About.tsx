@@ -1,4 +1,3 @@
-
 export default function About() {
     return (
         <div className="max-w-2xl">
