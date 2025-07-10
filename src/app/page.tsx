@@ -7,7 +7,7 @@ import About from "@/components/About";
 import Contacts from "@/components/Contact";
 import Services from "@/components/Services"
 import Experience from "@/components/Experience";
-
+import Equipment from "@/components/Equipment";
 
 export default function HomePage() {
   return (
@@ -37,7 +37,7 @@ export default function HomePage() {
 
       {/* HERO */}
       <section id="hero" className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-        <h1 className="text-5xl font-bold text-center text-blue-800">Expert Radiology Diagnostics</h1>
+        <h1 className="text-5xl font-bold text-center text-blue-800">Expert Radiology Consultations</h1>
         <p className="mt-4 text-lg text-center text-gray-700">Advanced scanning, precise results, professional care.</p>
         <a href="#services" className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
           View Services
@@ -65,10 +65,9 @@ export default function HomePage() {
 
       {/* EQUIPMENT */}
       <section id="equipment" className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Equipment</h2>
-        <p className="max-w-2xl mx-auto text-center text-gray-700">
-          Our clinic is equipped with the latest MRI and CT scanning technology for the most precise diagnostic results.
-        </p>
+        <div>
+          <Equipment></Equipment>
+        </div>
       </section>
 
       {/* CONTACT */}
