@@ -5,9 +5,16 @@ export default function Contacts() {
             <form className="w-full max-w-md space-y-4">
                 <input
                     type="text"
-                    placeholder="Your Name and Lastname"
+                    placeholder="Your Name"
                     className="w-full p-3 border rounded"
                 />
+
+                 <input
+                    type="text"
+                    placeholder="Your Lastname"
+                    className="w-full p-3 border rounded"
+                />
+
                 <input
                     type="email"
                     placeholder="Your Email"
