@@ -36,7 +36,7 @@ export default function HomePage() {
       </nav>
 
       {/* HERO */}
-      <section id="hero" className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+      <section id="hero" data-scroll className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
         <h1 className="text-5xl font-bold text-center text-blue-800">Expert Radiology Consultations</h1>
         <p className="mt-4 text-lg text-center text-gray-700">Advanced scanning, precise results, professional care.</p>
         <a href="#services" className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
@@ -45,26 +45,26 @@ export default function HomePage() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+      <section id="about" data-scroll className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center"><About></About></div>
       </section>
 
       {/* SERVICES */}
-      <section id="services" className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
+      <section id="services" data-scroll className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
         <div className="space-y-4 text-lg text-black-700 max-w-xl mx-auto">
           <Services></Services>
         </div>
       </section>
 
       {/* EXPERIENCE */}
-      <section id="experience" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+      <section id="experience" data-scroll className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
             <Experience></Experience>
         </div>
       </section>
 
       {/* EQUIPMENT */}
-      <section id="equipment" className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
+      <section id="equipment" data-scroll className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
         <div>
           <Equipment></Equipment>
         </div>
@@ -72,7 +72,7 @@ export default function HomePage() {
 
       {/* CONTACT */}
 
-      <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
+      <section id="contact" data-scroll className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
         <div><Contacts></Contacts></div>
       </section>
 
