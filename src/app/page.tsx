@@ -59,7 +59,7 @@ export default function HomePage() {
       {/* EXPERIENCE */}
       <section id="experience" data-scroll className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
-            <Experience></Experience>
+          <Experience></Experience>
         </div>
       </section>
 
