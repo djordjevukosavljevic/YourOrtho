@@ -12,10 +12,6 @@ export default function About() {
                 and ultrasound contributed significantly to rapid diagnostics and life-saving interventions.
             </p><br></br>
             <p className="leading-relaxed">
-                Dr Vladimir Vukosavljevic served as the Chief Radiologist at the Emergency Medical Center in Belgrade, one of the busiest and most demanding healthcare institutions in the region. His tenure there not only sharpened his diagnostic acumen but also positioned him as a leader in high-pressure, trauma-centered radiology. His expertise in emergency radiology, CT diagnostics, MRI,
-                and ultrasound contributed significantly to rapid diagnostics and life-saving interventions.
-            </p><br></br>
-            <p className="leading-relaxed">
                 His academic journey includes a distinguished career as a university professor,
                 where he mentored generations of future radiologists and medical students. Dr Vukosavljevic is praised for his ability to simplify complex concepts,
                 instill deep clinical thinking, and inspire his students to pursue excellence.
