@@ -9,24 +9,8 @@ import Experience from "@/components/Experience";
 import Equipment from "@/components/Equipment";
 
 export default function HomePage() {
-  const scrollRef = useRef(null);
-
-  useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import('locomotive-scroll')).default;
-
-      const scroll = new LocomotiveScroll({
-        el: scrollRef.current,
-        smooth: true,
-      });
-      return () => {
-        scroll.destroy();
-      };
-    })();
-  }, []);
-
   return (
-    <main className="scroll-smoo th" ref={scrollRef} data-scroll-container data-scroll-speed="5">
+    <main className="scroll-smoo th">
       {/* NAVBAR */}
       {/* With views */}
       <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 flex justify-center space-x-6 py-4">
@@ -51,7 +35,7 @@ export default function HomePage() {
       </nav>
 
       {/* HERO */}
-      <section id="hero" data-scroll-section className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+      <section id="hero" className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
         <h1 className="text-5xl font-bold text-center text-blue-800">Expert Radiology Consultations</h1>
         <p className="mt-4 text-lg text-center text-gray-700">Advanced scanning, precise results, professional care.</p>
         <a href="#services" className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
@@ -60,26 +44,26 @@ export default function HomePage() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" data-scroll-section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+      <section id="about" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center"><About></About></div>
       </section>
 
       {/* SERVICES */}
-      <section id="services" data-scroll-section className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
+      <section id="services" className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
         <div className="space-y-4 text-lg text-black-700 max-w-xl mx-auto">
           <Services></Services>
         </div>
       </section>
 
       {/* EXPERIENCE */}
-      <section id="experience" data-scroll-section className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
+      <section id="experience" className="min-h-screen flex items-center justify-center bg-white px-4 py-20">
         <div className="max-w-2xl text-center">
           <Experience></Experience>
         </div>
       </section>
 
       {/* EQUIPMENT */}
-      <section id="equipment" data-scroll-section className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
+      <section id="equipment" className="min-h-screen flex flex-col justify-center bg-gray-100 px-4 py-20">
         <div>
           <Equipment></Equipment>
         </div>
@@ -87,14 +71,16 @@ export default function HomePage() {
 
       {/* CONTACT */}
 
-      <section id="contact" data-scroll-section className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
+      <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
         <div><Contacts></Contacts></div>
       </section>
 
       {/* FOOTER */}
-      <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
-        &copy; {new Date().getFullYear()} Radiologist - Dr Vladimir - All rights reserved.
-      </footer>
+      <section>
+        <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
+          &copy; {new Date().getFullYear()} Radiologist - Dr Vladimir - All rights reserved.
+        </footer>
+      </section>
     </main>
   );
 }
