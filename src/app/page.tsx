@@ -1,19 +1,32 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import '../styles/page.module.css';
-import "locomotive-scroll/dist/locomotive-scroll.css";
 import { House, Stethoscope, Hospital, GraduationCap, Magnet, Contact } from 'lucide-react';
 import About from "@/components/About";
 import Contacts from "@/components/Contact";
 import Services from "@/components/Services"
 import Experience from "@/components/Experience";
 import Equipment from "@/components/Equipment";
-import LocomotiveScroll from "locomotive-scroll";
 
 export default function HomePage() {
-  const scroll = new LocomotiveScroll();
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import('locomotive-scroll')).default;
+
+      const scroll = new LocomotiveScroll({
+        el: scrollRef.current,
+        smooth: true,
+      });
+      return () => {
+        scroll.destroy();
+      };
+    })();
+  }, []);
+
   return (
-    <main className="scroll-smoo th">
+    <main className="scroll-smoo th" ref={scrollRef} data-scroll-container data-scroll-speed="5">
       {/* NAVBAR */}
       {/* With views */}
       <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 flex justify-center space-x-6 py-4">

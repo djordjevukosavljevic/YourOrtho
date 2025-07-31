@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/locomotivebase.css'
 import React from "react";
 
 export const metadata = {
