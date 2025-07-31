@@ -13,6 +13,7 @@
     "autoprefixer": "^10.4.21",
     "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.518.0",
+    "motion": "^12.23.12",
     "next": "15.3.3",
     "nodemailer": "^7.0.5",
     "postcss": "^8.5.6",
