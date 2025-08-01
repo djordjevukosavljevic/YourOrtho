@@ -1,7 +1,7 @@
 export default function Contacts() {
     return (
         <div>
-            <h2 className="text-3xl font-bold mb-6">Contact Us</h2 >
+            <h2 className="text-3xl font-bold mb-6 text-center">Contact Us</h2 >
             <form className="w-full max-w-md space-y-4">
                 <input
                     type="text"
