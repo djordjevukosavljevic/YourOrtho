@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect, useRef } from "react";
 import '../styles/page.module.css';
 import { House, Stethoscope, Hospital, GraduationCap, Magnet, Contact } from 'lucide-react';
