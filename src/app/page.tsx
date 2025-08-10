@@ -77,7 +77,7 @@ export default function HomePage() {
         {/* FOOTER */}
         <section>
           <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
-            &copy; {new Date().getFullYear()} Radiologist - Dr Vladimir - All rights reserved.
+            &copy; {new Date().getFullYear()} Radiologist - Dr Vladimir - All rights reserved
           </footer>
         </section>
     </main>
