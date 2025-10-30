@@ -10,7 +10,7 @@ import Equipment from "@/components/Equipment";
 
 export default function HomePage() {
   return (
-    <main className="scroll-smoo th">
+    <main className="scroll-smooth">
       {/* NAVBAR */}
       {/* With views */}
       <nav className="fixed top-0 left-0 right-0 bg-white shadow z-50 flex justify-center space-x-6 py-4">
