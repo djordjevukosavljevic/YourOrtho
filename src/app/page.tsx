@@ -6,6 +6,7 @@ import Contacts from "@/components/Contact";
 import Services from "@/components/Services"
 import Experience from "@/components/Experience";
 import Equipment from "@/components/Equipment";
+import "../styles/style.css"
 
 
 export default function HomePage() {
