@@ -42,6 +42,9 @@ export default function HomePage() {
         <a href="#services" className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
           View Services
         </a>
+        <a href="#contact" className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Get in touch
+        </a>
       </section>
 
       {/* ABOUT */}

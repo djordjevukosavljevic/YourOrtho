@@ -1,3 +1,7 @@
+'use client';
+
+import contactMsg from "../js/contact.js";
+
 export default function Contacts() {
     return (
         <div>
@@ -36,8 +40,10 @@ export default function Contacts() {
                     className="w-full p-3 border rounded"
                     rows={4}
                 />
-                <button
-                    type="submit"
+                <button 
+                    id="msgBtn"
+                    onClick={contactMsg}
+                    type="button"
                     className="w-full p-3 bg-blue-600 text-white rounded hover:bg-blue-700"
                 >
                     Send Message
