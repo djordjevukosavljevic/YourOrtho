@@ -1,6 +1,6 @@
 'use client';
 
-import contactMsg from "../js/contact.js";
+import appointmentMsg from "../js/appointment.js";
 
 export default function Appointment() {
     return (
@@ -42,7 +42,7 @@ export default function Appointment() {
                     rows={4}
                 />
                 <button 
-                    onClick={contactMsg}
+                    onClick={appointmentMsg}
                     type="button"
                     className="w-full p-3 bg-blue-600 text-white rounded hover:bg-blue-700"
                 >
