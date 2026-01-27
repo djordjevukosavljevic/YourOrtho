@@ -6,6 +6,7 @@ import Contacts from "@/components/Contact";
 import Services from "@/components/Services"
 import Experience from "@/components/Experience";
 import Equipment from "@/components/Equipment";
+import Appointment from "@/components/Appointment"
 import "../styles/style.css"
 
 
@@ -74,6 +75,11 @@ export default function HomePage() {
 
       <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
         <div><Contacts></Contacts></div>
+      </section>
+
+      {/* Appointment */}
+      <section id="appointment" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
+        <div><Appointment></Appointment></div>
       </section>
 
       {/* FOOTER */}
