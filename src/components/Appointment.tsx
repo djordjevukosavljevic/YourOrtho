@@ -20,7 +20,7 @@ export default function Appointment() {
                     className="w-full p-3 border rounded"
                 />
 
-                <input
+             w   <input
                     type="email"
                     placeholder="Your Email"
                     className="w-full p-3 border rounded"
