@@ -77,11 +77,6 @@ export default function HomePage() {
         <div><Contacts></Contacts></div>
       </section>
 
-      {/* Appointment */}
-      <section id="appointment" className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-20">
-        <div><Appointment></Appointment></div>
-      </section>
-
       {/* FOOTER */}
       <section>
         <footer className="text-center py-6 text-gray-500 bg-gray-900 text-white">
