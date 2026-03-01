@@ -6,7 +6,6 @@ import Contacts from "@/components/Contact";
 import Services from "@/components/Services"
 import Experience from "@/components/Experience";
 import Equipment from "@/components/Equipment";
-import Appointment from "@/components/Appointment"
 import "../styles/style.css"
 
 
