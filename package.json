@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "prisma generate",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start && set PORT=8085",
+    "start": "next start && set POnpRT=8085",
     "lint": "next lint"
   },
   "dependencies": {
