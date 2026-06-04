@@ -6,7 +6,7 @@
     "postinstall": "prisma generate",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start && set POnpRT=8085",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,8 +15,8 @@
     "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.518.0",
     "motion": "^12.23.12",
-    "next": "15.3.3",
-    "nodemailer": "^7.0.5",
+    "next": "^15.5.19",
+    "nodemailer": "^8.0.10",
     "postcss": "^8.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
